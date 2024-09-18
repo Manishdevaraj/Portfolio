@@ -72,15 +72,7 @@ function Hero() {
       
       </p>
          
-  <a href='#work'>
-    <MagicButton
-    title='Show my work'
-    icon={<MdOutlineArrowOutward/>}
-    position='right'
-    
-    
-    />
-   </a>
+  
       </div>
      
   

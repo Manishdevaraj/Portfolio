@@ -27,13 +27,13 @@ const Project = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <Image  width={100} height={100} src="/bg.png" alt="bgimg" />
+                  <img src="/bg.png" alt="bgimg" />
                 </div>
-                <Image
+                <img
                   src={img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
-                  width={100} height={100}
+                  
                 />
               </div>
 
@@ -61,7 +61,7 @@ const Project = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <Image width={100} height={100} src={icon} alt="icon5" className="p-2" />
+                      <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
                 </div>

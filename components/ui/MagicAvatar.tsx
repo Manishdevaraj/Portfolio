@@ -55,6 +55,7 @@ function MagicAvatar() {
     {/* -------------------buttons----------- */}
       <div className='flex flex-col items-center justify-center gap-6 mt-8 md:mt-20'>
         <div className='flex gap-5'>
+        <a href={"https://leetcode.com/u/ManishDevaraj/"} target="_blank" rel="noopener noreferrer" >
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
@@ -65,6 +66,7 @@ function MagicAvatar() {
        
         <span>Leet Code</span>
       </HoverBorderGradient>
+      </a>
       <a href={"https://www.linkedin.com/in/manishdevaraj"} target="_blank" rel="noopener noreferrer" >
       <HoverBorderGradient
         containerClassName="rounded-full"
