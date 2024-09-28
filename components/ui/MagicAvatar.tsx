@@ -43,7 +43,7 @@ function MagicAvatar() {
       {/* Image */}
       <div className="relative w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[300px] lg:h-[300px] rounded-full overflow-hidden">
         <Image
-          src='/images/p2.jpg'
+          src='/images/t2.jpg'
           fill
           priority
           alt='Avatar'
