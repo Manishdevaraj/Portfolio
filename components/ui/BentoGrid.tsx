@@ -88,7 +88,7 @@ export const BentoGridItem = ({
       }}
     >
 
- <div className={`h-full overflow-visible`}>
+ <div className={`h-full overflow-visible ${id===2&&'overflow-hidden'}`}>
           {id==2&&(<GlobeDemo/>)}
         {id==6&&<div className='flex justify-center w-full h-full'>
           <Vortex
